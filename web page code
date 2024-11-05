@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HK CHOCO HEAVEN</title>
+  <link rel="icon" type="image/png" href="C:\Users\Haris Khan\Pictures\logo.png" />
+  <style>
+    body {
+      font-family: "Georgia", Times, serif, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-image: url("C:/Users/Haris Khan/Documents/background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+      text-align: center;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      flex-direction: column;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+      animation: pulse 2s infinite;
+      margin: 0;
+      font-weight: bold;
+      font-size: 2.5em;
+      border: 4px solid white; /* White outline for the title */
+      border-radius: 15px; /* Rounded corners */
+      padding: 10px 20px; /* Add padding for better spacing */
+      display: inline-block; /* Allow border to fit the text */
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    }
+
+    .tagline {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      color: white;
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    p {
+      color: #d2cfcf;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .buy-button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #ff0000; /* Initial background color */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      animation: colorChange 1s infinite alternate; /* Color changing animation */
+    }
+    @keyframes colorChange {
+      0% {
+        background-color: #ff0000; /* Red */
+      }
+      100% {
+        background-color: white; /* White */
+        color: #ff0000; /* Change text color to red when background is white */
+      }
+    }
+
+    .buy-button:hover {
+      background-color: #ee0303;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    table {
+      width: 100%;
+      margin: 20px auto; /* Centered table */
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .contact-section {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #433434; /* Light red background */
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        color: white; /* White text color for the entire contact section */
+      }
+
+      .contact-section h3 {
+        margin-top: 0;
+      }
+
+      .contact-info {
+        margin: 10px 0;
+        text-align: left; /* Align text to the left */
+      }
+
+      .rules {
+        color: white;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #333;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      colour:red;
+    }
+    
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    button[type="submit"] {
+      background-color: #f90000;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #ee0303;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>
+          <img src="C:\Users\Haris Khan\Pictures\logo.png" alt="HK Choco Heaven Logo" width="80px" height="80px" />
+          HK CHOCO HEAVEN
+        </h1>
+        <a href="https://www.lalschocolates.com/" class="buy-button">Buy Now</a>
+        <p>Eat Sweet, Speak Sweet</p>
+        <div class="tagline">
+            <img src="C:\Users\Haris Khan\Pictures\pakistan-flag.png" alt="Pakistan Flag" width="40px" height="30px" style="margin-left: 10px;"/>
+          Pakistan's No. 1 Chocolate Brand!
+        </div>
+        <img src="C:\Users\Haris Khan\Pictures\hilal.png" alt="Hilal" width="80px" height="50px" style="position: absolute; top: 20px; left: 20px;" />
+    </header>
+    
+
+  <table>
+    <thead>
+      <tr>
+        <th>Flavor</th>
+        <th>Quantity</th>
+        <th>Price (Rs)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Milk Chocolate</td>
+        <td>250g</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Dark Chocolate</td>
+        <td>250g</td>
+        <td>220</td>
+      </tr>
+      <tr>
+        <td>White Chocolate</td>
+        <td>250g</td>
+        <td>210</td>
+      </tr>
+      <tr>
+        <td>Hazelnut Chocolate</td>
+        <td>250g</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>Mint Chocolate</td>
+        <td>250g</td>
+        <td>230</td>
+      </tr>
+      <tr>
+        <td>Caramel Chocolate</td>
+        <td>250g</td>
+        <td>240</td>
+      </tr>
+      <tr>
+        <td>Strawberry Chocolate</td>
+        <td>250g</td>
+        <td>260</td>
+      </tr>
+      <tr>
+        <td>Almond Chocolate</td>
+        <td>250g</td>
+        <td>280</td>
+      </tr>
+      <tr>
+        <td>Raspberry Chocolate</td>
+        <td>250g</td>
+        <td>270</td>
+      </tr>
+      <tr>
+        <td>Coconut Chocolate</td>
+        <td>250g</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>Orange Chocolate</td>
+        <td>250g</td>
+        <td>230</td>
+      </tr>
+      <tr>
+        <td>Spicy Chili Chocolate</td>
+        <td>250g</td>
+        <td>290</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="logout">
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+
+  <div class="contact-section">
+    <h3>Contact Us</h3>
+    <div class="contact-info">
+      <p>
+        Email:
+        <a href="mailto:hariskhan4236998@gmail.com">hariskhan4236998@gmail.com</a>
+      </p>
+      <p>
+        Instagram:
+        <a href="https://www.instagram.com/Engr.haris_khan" target="_blank">@Engr.haris_khan</a>
+      </p>
+    </div>
+    <form method="POST">
+      <textarea placeholder="Your Feedback" rows="4" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+  <div class="rules">
+    <h3>Rules</h3>
+    <p>1. Do not open packages.</p>
+    <p>2. Handle chocolate with clean hands.</p>
+    <p>3. Enjoy responsibly!</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 HK Choco Heaven. All rights reserved.</p>
+    <p>Follow us on 
+      <a href="https://www.instagram.com/Engr.haris_khan" target="_blank">Instagram</a>
+    </p>
+  </footer>
+</body>
+</html>
