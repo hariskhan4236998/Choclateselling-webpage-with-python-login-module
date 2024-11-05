@@ -1,0 +1,20 @@
+Flask Web Page with Python Login Module
+A simple yet secure web application built using Flask, featuring a login module that handles user authentication. This project demonstrates how to implement user login functionality in Flask with a clean, organized codebase.
+
+Features
+User Authentication: Allows users to register, log in, and log out securely.
+Session Management: Maintains user sessions using Flask's built-in session management, ensuring persistent user state.
+Password Hashing: Implements password hashing for secure credential storage.
+Responsive Design: Web page layout optimized for both desktop and mobile devices.
+Easy Setup and Configuration: Simple steps to get the app running on your local machine.
+Technologies Used
+Flask: Web framework for Python
+SQLite: Lightweight database for user data storage
+HTML, CSS: Front-end for the web page
+Jinja2: Template engine for Flask
+Getting Started
+To run this project locally, follow these steps:
+
+Prerequisites
+Python 3.x installed on your system.
+Basic knowledge of Flask and Python.
